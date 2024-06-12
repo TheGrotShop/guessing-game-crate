@@ -1,0 +1,20 @@
+[package]
+name = "guessing-game"
+version = "0.1.0"
+authors = ["Wolf Software <crates@wolfsoftware.com>"]
+description = "A simple number guessing game"
+license = "MIT"
+repository = "https://github.com/TheGrotShop/guessing-game-crate"
+homepage = "https://github.com/TheGrotShop/guessing-game-crate"
+documentation = "https://docs.rs/guessing-game"
+readme = "README.md"
+keywords = ["guessing", "game", "example"]
+categories = ["games", "tutorial"]
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+
+[[bin]]
+name = "guessing-game"
+path = "src/main.rs"
