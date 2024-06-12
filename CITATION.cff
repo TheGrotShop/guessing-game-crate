@@ -3,9 +3,9 @@ message: If you use this software, please cite it using these metadata.
 title: Simple Guessing Game
 abstract: A simple guessing game.
 type: software
-version: 0.1.0
+version: 0.1.1
 date-released: 2024-06-12
-repository-code: https://github.com/TheGrotShop/guessing-game-rust
+repository-code: https://github.com/TheGrotShop/guessing-game-crate
 keywords:
   - "Wolf Software"
   - "Software"
