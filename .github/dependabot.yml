@@ -1,0 +1,37 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:00"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "chore:"
+    labels:
+      - "dependabot: ecosystem : github actions"
+      - "dependabot: dependencies"
+    assignees:
+      - "TGWolf"
+
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:00"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "chore:"
+    labels:
+      - "dependabot: ecosystem : github actions"
+      - "dependabot: dependencies"
+    assignees:
+      - "TGWolf"
+    ignore:
+      # These are peer deps of Cargo and should not be automatically bumped
+      - dependency-name: "semver"
+      - dependency-name: "crates-io"
+    rebase-strategy: "disabled"
