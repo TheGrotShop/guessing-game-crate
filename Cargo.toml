@@ -1,5 +1,5 @@
 [package]
-name = "guessing-game"
+name = "wolfsoftware-guessing-game"
 version = "0.1.0"
 authors = ["Wolf Software <crates@wolfsoftware.com>"]
 description = "A simple number guessing game"
